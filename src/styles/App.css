@@ -1,0 +1,110 @@
+html {
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.cardBg {
+  background-image: url("../assets/Cardbg.png");
+}
+
+.ctaBg {
+  background-image: url("../assets/CTAbg.png");
+}
+
+.enrollCTAbg {
+  background-image: url("../assets/CTA.png");
+}
+
+
+.homeBg {
+  background-image: url("../assets/Hero.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  /* background-position-x: center; */
+}
+
+.productHeroBg {
+  background-image: url("../assets/Hero (1).png");
+}
+
+.brand-section {
+  background-image: url("../assets/BrandBanner.png");
+}
+
+.productBg {
+  background-image: url("../assets/appBg.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.previewCardBg {
+  background-image: url("../assets/card-corner.png");
+  background-repeat: no-repeat;
+  background-position: top -2rem right;
+}
+
+.hero-section h1 {
+  text-shadow: 5px 5px black;
+}
+
+.hero-heading {
+  text-shadow: 5px 5px black;
+}
+
+.cardBg,
+.ctaBg,
+.enrollCTAbg,
+.brand-section {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.newsCard:hover {
+  box-shadow: 5px 5px 0px black;
+}
+
+.dropShadow:hover {
+  box-shadow: 5px 5px 0px black;
+}
+
+/* Home Banner  */
+.bannerBg {
+  background-image: url("../assets/bannerShape.png");
+  background-color: #5bc5d3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 539.98px) and (max-width: 550px) {
+  .hero-heading {
+    font-size: 43px !important;
+    line-height: 50px !important;
+    top: 30% !important;
+  }
+
+  .my-nav {
+    width: 90% !important;
+  }
+
+  .heading-star {
+    top: 20% !important;
+    right: 25% !important;
+  }
+
+  .heading-shape {
+    top: 32% !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #video-r-e {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
